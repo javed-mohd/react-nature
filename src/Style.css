@@ -1,0 +1,215 @@
+.social_main {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+.header_content {
+    width: 70%;
+    margin: auto;
+}
+.header_content h1 {
+    color: #010148;
+    font-family: "Poppins", Sans-serif;
+    font-size: 48px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.header_content h1 span {
+    color: #ff6924;
+}
+.header_content p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #737373;
+}
+.social_main .card {
+    padding: 20px 10px;
+    text-align: center;
+}
+.social_main .card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.social_main .card img {
+    width: 65%;
+    margin: auto;
+}
+.social_main .card h3 {
+    font-size: 18px;
+    margin-bottom: 14px;
+    color: #010148;
+    padding-bottom: 15px;
+    position: relative;
+}
+.social_main .card h3:before {
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: #62A132;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.social_main .card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+    margin-bottom: 26px;
+}
+.social_main .card button {
+    line-height: 41px;
+    border-radius: 5px;
+    color: #010148;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    border: 2px solid #62A132;
+    width: 50%;
+    margin: auto;
+    letter-spacing: .4px;
+}
+.social_main .card button:hover {
+    background-color: #ff6924;
+    border: 2px solid #ff6924;
+    transition-duration: .4px;
+    color: #fff;
+}
+.popular_cate {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+.popular_cate .header_content {
+    width: 60%;
+    margin: initial;
+}
+.innercard {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 14px 0px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.innercard:hover {
+    border: 1px solid #62A132;
+    transition-duration: .3s;
+}
+.img_slot {
+    margin: 0px 0px 10px 0px;
+}
+.cate_name h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #010148;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+}
+.innerSlt {
+    background-image: url(file:///C:/FoodWeb/foodwbesite/public/images/bg_2.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px;
+    border-radius: 6px;
+}
+.innerSlt h5 {
+    color: #fff;
+    letter-spacing: .4px;
+}
+.innerSlt h5 span {
+    color: #ff6924;
+}
+.innerSlt h2 {
+    color: #fff;
+    margin: 0px 20px;
+}
+.innerSlt button {
+    z-index: 10;
+    background-color: #62A132;
+    color: rgb(255, 255, 255);
+    line-height: 55px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 48px;
+    border-radius: 5px;
+    padding-right: 48px;
+    margin: 20px 0px;
+    border: none;
+}
+.trending_products {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+.trending_products .header_content {
+    width: 50%;
+    margin: initial;
+}
+.top_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_btns button {
+    margin: 0;
+    padding: 0;
+    color: #010148;
+    line-height: 40px;
+    padding: 2px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    font-weight: 500;
+    margin: 0px 3px;
+}
+.right_btns button.active {
+    background-color: #5fa232;
+    color: #fff;
+}
+.card_product {
+    position: relative;
+    border: 1px solid #ddd6;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fdeee7;
+    overflow: hidden;
+    height: 341px;
+    margin: 12px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.product_detail {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    position: absolute;
+    height: 116px;
+    bottom: -48px;
+}
+.product_name {
+    margin-bottom: 6px;
+    font-size: 19px;
+    color: #010148;
+    letter-spacing: .4px;
+}
+.product_price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff6924;
+}
+.product_detail button {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+    padding: 0 17px;
+    line-height: 36px;
+    background-color: #ff6924;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.card_product:hover .product_detail {
+    bottom: 0px;
+    transition-duration: .4s;
+}
