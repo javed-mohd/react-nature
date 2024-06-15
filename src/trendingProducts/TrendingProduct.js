@@ -13,10 +13,12 @@ const TrendingProduct = () => {
     ];
     
     const [currentdata, setCurrentdata] = useState(TrendingApi);
+    const [activeCategory, setActiveCategory] = useState('All Category');
 
-    const filteItem = (category) => {
+    const filterItem = (category) => {
+        setActiveCategory(category);
 
-        if(category=== "All Category") {
+        if(category === "All Category") {
             setCurrentdata(TrendingApi);
             return
         }
@@ -37,11 +39,15 @@ const TrendingProduct = () => {
                     </div>
                     <div className='right_btns'>
                         <div className='btn-group'>
-                            {UneaqueList.map((currentElem) => {
-                                return (
-                                    <button className={currentdata === currentElem ? '' : 'active'} onClick={()=> filteItem(currentElem)}>{currentElem}</button>
-                                )
-                            })}
+                            {UneaqueList.map((currentElem, index) => (
+                                <button
+                                    key={index}
+                                    className={activeCategory === currentElem ? 'active' : ''}
+                                    onClick={() => filterItem(currentElem)}
+                                >
+                                {currentElem}
+                                </button>
+                            ))}
                         </div>
                     </div>
                 </div>
