@@ -104,7 +104,7 @@
     font-weight: 600;
 }
 .innerSlt {
-    background-image: url(file:///C:/FoodWeb/foodwbesite/public/images/bg_2.jpg);
+    background-image: url(../../react-nature/public/images/bg_2.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
